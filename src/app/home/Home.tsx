@@ -1,13 +1,17 @@
-import Nav from "../nav/Nav";
+'use client'
+import { Nav } from "../nav/Nav";
+import { TravelContainer } from "./ui/TravelContainer";
+import './home.css'
 
 export const Home: React.FC = () => {
-
   return (
-    <section>
-        <div>
-          <Nav />
-        </div>
-        <h1> Hello world</h1>
-    </section>
+    <div className="container">
+      <div className="nav-wrapper">
+        <Nav />
+      </div>
+      <div className="content-wrapper">
+        <TravelContainer />
+      </div>
+    </div>
   );
 };

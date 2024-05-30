@@ -3,15 +3,15 @@
 import React from "react";
 import Link from "next/link";
 import { HamburgerMenu } from "./ui/HamburgerMenu";
-
-const Nav: React.FC = () => {
+import "./nav.css";
+export const Nav: React.FC = () => {
   return (
     <header className="nav-container">
       <div className="title-container">
         <h1 className="nav-title">Timeless Memories</h1>
       </div>
 
-      <div className="nav">
+      <nav className="nav">
         <div className="regular-nav">
           <Link href="/" className="nav-link">
             Home
@@ -31,9 +31,9 @@ const Nav: React.FC = () => {
         </div>
 
         <HamburgerMenu />
-      </div>
+      </nav>
     </header>
   );
 };
 
-export default Nav;
+

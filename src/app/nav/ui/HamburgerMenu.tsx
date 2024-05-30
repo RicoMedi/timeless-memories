@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+
 export const HamburgerMenu: React.FC = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
 
@@ -13,7 +14,7 @@ export const HamburgerMenu: React.FC = () => {
   };
 
   return (
-    <div className="menu-button-mobile">
+    <nav className="menu-button-mobile">
       {!showMenu && (
         <Image
           src={MenuButton}
@@ -59,6 +60,6 @@ export const HamburgerMenu: React.FC = () => {
           </div>
         </motion.div>
       )}
-    </div>
+    </nav>
   );
 };
