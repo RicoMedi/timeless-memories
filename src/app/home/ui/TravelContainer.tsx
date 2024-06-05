@@ -31,9 +31,10 @@ export const TravelContainer: React.FC = () => {
           {images.map((img, index) => (
             <div className="carousel-image" key={index}>
               <Image
-                alt="Mountains"
-                src={img}
-                fill
+                alt="travel images"
+                src={img} 
+                height={800}
+                width={400}
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}

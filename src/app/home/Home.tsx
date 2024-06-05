@@ -5,11 +5,13 @@ import './home.css'
 
 export const Home: React.FC = () => {
   return (
-    <div className="container">
+    <div id="container">
       <div className="nav-wrapper">
         <Nav />
       </div>
       <div className="content-wrapper">
+        <h1> Content box</h1>
+        <h1> details </h1>
         <TravelContainer />
       </div>
     </div>
