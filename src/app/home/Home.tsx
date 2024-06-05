@@ -14,8 +14,11 @@ export const Home: React.FC = () => {
         <h1> Welcome to Timeless Memories </h1>
         <p> Discover the joy of seamless travel planning and sharing with Timeless Memories. Whether you're planning your next big adventure, sharing your itinerary with friends and family, or showcasing your travel photos, we've got you covered.</p>
         <button className="gt-button"> Get Started</button>
+        <div>
+            <TravelContainer />
         </div>
-        <TravelContainer />
+       
+        </div>
       </div>
     </div>
   );
