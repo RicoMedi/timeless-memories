@@ -29,12 +29,11 @@ export const TravelContainer: React.FC = () => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {images.map((img, index) => (
-            <div className="carousel-image" key={index}>
+            <div key={index}>
               <Image
                 alt="travel images"
                 src={img} 
-                height={800}
-                width={400}
+                className="exact-image"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}

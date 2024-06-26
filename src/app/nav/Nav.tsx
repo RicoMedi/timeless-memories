@@ -12,7 +12,7 @@ export const Nav: React.FC = () => {
       </div>
 
       <nav className="nav">
-        <div className="regular-nav">
+        <div className="regular-nav ">
           <Link href="/" className="nav-link">
             Home
           </Link>
