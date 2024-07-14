@@ -10,7 +10,6 @@ export const Home: React.FC = () => {
         <Nav />
       </div>
 
-      
       <div className="content-wrapper">
         <div className="text-content">
           <h1> Welcome to Timeless Memories </h1>
