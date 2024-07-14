@@ -9,6 +9,8 @@ export const Home: React.FC = () => {
       <div className="nav-wrapper">
         <Nav />
       </div>
+
+      
       <div className="content-wrapper">
         <div className="text-content">
           <h1> Welcome to Timeless Memories </h1>
